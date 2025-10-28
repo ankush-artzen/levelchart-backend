@@ -109,20 +109,42 @@ export const integrationProfile = async (req: Request, res: Response): Promise<v
     });
 };
 
-export const integration = async (req: Request, res: Response): Promise<void> => {
+// export const integration = async (req: Request, res: Response): Promise<void> => {
+//     const shopParam = req.query.shop;
+
+//     if (typeof shopParam !== 'string') {
+//         res.status(400).send({ ok: false, message: 'Invalid or missing shop parameter' });
+//         return
+//     }
+
+//     myCache.set('shop', shopParam);
+//     req.session.shop = shopParam;
+
+//     if (!req.oidc.isAuthenticated()) {
+//         return res.redirect('/login');
+//     }
+//     // const user: any = req.oidc.user;
+//     return res.redirect('/');
+// }
+export const integration = async (req: Request, res: Response): Promise<any> => {
     const shopParam = req.query.shop;
 
-    if (typeof shopParam !== 'string') {
-        res.status(400).send({ ok: false, message: 'Invalid or missing shop parameter' });
-        return
+    if (!shopParam || typeof shopParam !== 'string') {
+        return res.status(400).json({ ok: false, message: "Invalid or missing shop parameter" });
     }
 
-    myCache.set('shop', shopParam);
-    req.session.shop = shopParam;
-
-    if (!req.oidc.isAuthenticated()) {
+    if (!req.oidc.isAuthenticated() || !req.oidc.user) {
         return res.redirect('/login');
     }
-    // const user: any = req.oidc.user;
+
+    const user = req.oidc.user;
+    const auth0Id = user.sub;
+
+    await StoreIntegration.findOneAndUpdate(
+        { auth0Id },
+        { shop: shopParam },
+        { upsert: true, new: true }
+    );
+
     return res.redirect('/');
-}
+};
