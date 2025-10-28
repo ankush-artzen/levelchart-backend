@@ -47,7 +47,7 @@ app.use(function (req, res, next) {
 app.use('/', authIntegrationRoutes);
 
 // API Route 
-app.get('/api', async (req: Request, res: Response) => {
+app.post('/api', async (req: Request, res: Response) => {
   try {
     res.json({
       shopInfo: { currency: 'USD', location: 'Sample Location' },
