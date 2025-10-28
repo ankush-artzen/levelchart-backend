@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title || "App" %></title>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <link rel="shortcut icon" href="//cdn2.auth0.com/styleguide/latest/lib/logos/img/favicon.png">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="max-w-2xl mx-auto p-6">
+    <nav class="flex justify-between mb-6">
+      <a href="/" class="font-bold text-lg">Auth0 Integration</a>
+      <div>
+        <% if (isAuthenticated) { %>
+          <a href="/profile" class="mr-4 text-blue-600">Profile</a>
+          <a href="/integration/auth/logout" class="text-red-500">Logout</a>
+        <% } else { %>
+          <a href="/login" class="text-green-600">Login</a>
+        <% } %>
+      </div>
+    </nav>

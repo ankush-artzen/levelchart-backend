@@ -1,0 +1,37 @@
+<%- include('partials/header') -%>
+
+<h1 class="text-2xl font-bold mb-4">Welcome to the Level Chart Auth0 Integration </h1>
+
+<% if (isAuthenticated) { %>
+  <p class="text-green-700">Hello, <%= user.name %> 👋</p>
+<% } else { %>
+  <p class="text-gray-600">Please log in to see your profile.</p>
+<% } %>
+
+<% if (shop) { %>
+  <p class="text-gray-800"><strong>Shopify Store :</strong> <%= shop %></p>
+  <div class="mt-6">
+    <a href="http://<%= shop %>/admin/apps/level-chart-local" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Back to store</a>
+</div>
+<% } else if (isAuthenticated && !shop ) { %>
+  <p class="text-red-500"><strong>Store not Link With Shopify Store</strong></p>
+  <form action="/integration" method="get" class="mt-6">
+    <label for="shop" class="block mb-2 text-sm font-medium text-gray-700">Enter your Shopify store domain:</label>
+    <input 
+      type="text" 
+      name="shop" 
+      id="shop" 
+      placeholder="example.myshopify.com"
+      class="px-4 py-2 border rounded w-full mb-4"
+      required />
+    <button 
+      type="submit" 
+      class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+      Link Store
+    </button>
+  </form>
+<% } %>
+
+
+
+<%- include('partials/footer') -%>

@@ -1,0 +1,27 @@
+<%- include('partials/header') -%>
+
+<h1 class="text-2xl font-bold mb-4">User Profile</h1>
+
+<ul class="bg-white shadow rounded p-4">
+  <% if (user) { %>
+    <li><strong>Name:</strong> <%= user.name || 'N/A' %></li>
+    <li><strong>Nickname:</strong> <%= user.nickname || 'N/A' %></li>
+    <li><strong>Email:</strong> <%= user.email || 'N/A' %></li>
+    <li><strong>Email Verified:</strong> <%= user.email_verified ? 'Yes' : 'No' %></li>
+    <% if (user.picture) { %>
+      <li class="mt-2">
+        <img src="<%= user.picture %>" 
+             alt="Profile picture" 
+             class="w-16 h-16 rounded-full object-cover">
+      </li>
+    <% } %>
+  <% } else { %>
+    <li>No user data available</li>
+  <% } %>
+</ul>
+<div class="mt-6">
+  <a href="http://<%= shop %>/admin/apps/level-chart" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Back to store</a>
+</div>
+
+
+<%- include('partials/footer') -%>

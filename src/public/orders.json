@@ -1,0 +1,70 @@
+{
+  "data": {
+    "orders": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/Order/5898812424239",
+            "legacyResourceId": "5898812424239",
+            "name": "#1029",
+            "customer": {
+              "id": "gid://shopify/Customer/7688506736687",
+              "firstName": "Hollee",
+              "lastName": "Stark",
+              "email": "qenodivoz@mailinator.com"
+            },
+            "totalPrice": "743.34",
+            "lineItems": {
+              "edges": [
+                {
+                  "node": {
+                    "title": "The Multi-managed Snowboard",
+                    "quantity": 1,
+                    "variantTitle": null,
+                    "variant": {
+                      "id": "gid://shopify/ProductVariant/42907358724143",
+                      "title": "Default Title",
+                      "price": "629.95"
+                    }
+                  }
+                }
+              ]
+            },
+            "shippingLine": {
+              "code": "Standard",
+              "custom": false,
+              "deliveryCategory": null,
+              "title": "Standard",
+              "price": "0.00"
+            },
+            "taxExempt": false,
+            "taxLines": [
+              {
+                "price": "113.39",
+                "rate": 0.18,
+                "ratePercentage": 18,
+                "title": "IGST",
+                "source": null
+              }
+            ]
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo1ODk4ODEyNDI0MjM5LCJsYXN0X3ZhbHVlIjoiMjAyNS0wNS0xNiAxMzo1MTowMC4zODU0MTYifQ=="
+      }
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 58,
+      "actualQueryCost": 10,
+      "throttleStatus": {
+        "maximumAvailable": 2000,
+        "currentlyAvailable": 1990,
+        "restoreRate": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "level-chart-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build": "tsc && mkdir -p dist/views dist/public && cp -r src/views/* dist/views/ && cp -r src/public/* dist/public/",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "csv:product": "ts-node src/scripts-generator/products/generateProductsCsv.ts",
+    "shopify:product": "ts-node src/scripts-generator/products/uploadProductsToShopify.ts",
+    "csv:shopify": "ts-node src/scripts-generator/products/generateShopifyProductsCsv",
+    "shopify:order": "ts-node src/scripts-generator/orders/createShopifyOrder.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^11.6.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-openid-connect": "^2.18.1",
+    "express-session": "^1.18.1",
+    "fast-csv": "^5.0.2",
+    "mongoose": "^8.9.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "shopify-api-node": "^3.14.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/node": "^22.10.2",
+    "@types/node-cron": "^3.0.11",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

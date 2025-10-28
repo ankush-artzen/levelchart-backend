@@ -1,0 +1,653 @@
+{
+    "data": {
+      "products": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701797935",
+              "legacyResourceId": "7697701797935",
+              "title": "The Videographer Snowboard",
+              "handle": "the-videographer-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358101551",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358101551",
+                      "inventoryQuantity": 50,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710188079",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710188079",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710188079&name=available",
+                                    "quantity": 50
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701830703",
+              "legacyResourceId": "7697701830703",
+              "title": "The Minimal Snowboard",
+              "handle": "the-minimal-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358068783",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358068783",
+                      "inventoryQuantity": 50,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710155311",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710155311",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710155311&name=available",
+                                    "quantity": 50
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701863471",
+              "legacyResourceId": "7697701863471",
+              "title": "The Archived Snowboard",
+              "handle": "the-archived-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358134319",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358134319",
+                      "inventoryQuantity": 50,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710220847",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710220847",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710220847&name=available",
+                                    "quantity": 50
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701896239",
+              "legacyResourceId": "7697701896239",
+              "title": "The Collection Snowboard: Hydrogen",
+              "handle": "the-collection-snowboard-hydrogen",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358167087",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358167087",
+                      "inventoryQuantity": 50,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710253615",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710253615",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710253615&name=available",
+                                    "quantity": 50
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701929007",
+              "legacyResourceId": "7697701929007",
+              "title": "The Complete Snowboard",
+              "handle": "the-complete-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358199855",
+                      "title": "Ice",
+                      "legacyResourceId": "42907358199855",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710319151",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710319151",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710319151&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358265391",
+                      "title": "Dawn",
+                      "legacyResourceId": "42907358265391",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710351919",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710351919",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710351919&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358298159",
+                      "title": "Powder",
+                      "legacyResourceId": "42907358298159",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710384687",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710384687",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710384687&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358330927",
+                      "title": "Electric",
+                      "legacyResourceId": "42907358330927",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710417455",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710417455",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710417455&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358363695",
+                      "title": "Sunset",
+                      "legacyResourceId": "42907358363695",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710450223",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710450223",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710450223&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701961775",
+              "legacyResourceId": "7697701961775",
+              "title": "The Draft Snowboard",
+              "handle": "the-draft-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358232623",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358232623",
+                      "inventoryQuantity": 20,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710286383",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710286383",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710286383&name=available",
+                                    "quantity": 20
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697701994543",
+              "legacyResourceId": "7697701994543",
+              "title": "The Hidden Snowboard",
+              "handle": "the-hidden-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358396463",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358396463",
+                      "inventoryQuantity": 50,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710515759",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710515759",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710515759&name=available",
+                                    "quantity": 50
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697702027311",
+              "legacyResourceId": "7697702027311",
+              "title": "The Out of Stock Snowboard",
+              "handle": "the-out-of-stock-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358429231",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358429231",
+                      "inventoryQuantity": 0,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710482991",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710482991",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710482991&name=available",
+                                    "quantity": 0
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697702060079",
+              "legacyResourceId": "7697702060079",
+              "title": "Gift Card",
+              "handle": "gift-card",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358461999",
+                      "title": "$10",
+                      "legacyResourceId": "42907358461999",
+                      "inventoryQuantity": 0,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710548527",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710548527",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710548527&name=available",
+                                    "quantity": 0
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358494767",
+                      "title": "$25",
+                      "legacyResourceId": "42907358494767",
+                      "inventoryQuantity": 0,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710581295",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710581295",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710581295&name=available",
+                                    "quantity": 0
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358527535",
+                      "title": "$50",
+                      "legacyResourceId": "42907358527535",
+                      "inventoryQuantity": 0,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710614063",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710614063",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710614063&name=available",
+                                    "quantity": 0
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358560303",
+                      "title": "$100",
+                      "legacyResourceId": "42907358560303",
+                      "inventoryQuantity": 0,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710646831",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710646831",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710646831&name=available",
+                                    "quantity": 0
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Product/7697702092847",
+              "legacyResourceId": "7697702092847",
+              "title": "The Compare at Price Snowboard",
+              "handle": "the-compare-at-price-snowboard",
+              "variants": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "gid://shopify/ProductVariant/42907358593071",
+                      "title": "Default Title",
+                      "legacyResourceId": "42907358593071",
+                      "inventoryQuantity": 10,
+                      "inventoryItem": {
+                        "id": "gid://shopify/InventoryItem/45002710679599",
+                        "inventoryLevels": {
+                          "edges": [
+                            {
+                              "node": {
+                                "id": "gid://shopify/InventoryLevel/106117005359?inventory_item_id=45002710679599",
+                                "quantities": [
+                                  {
+                                    "id": "gid://shopify/InventoryQuantity/106117005359?inventory_item_id=45002710679599&name=available",
+                                    "quantity": 10
+                                  }
+                                ],
+                                "location": {
+                                  "id": "gid://shopify/Location/71762968623",
+                                  "name": "Shop location"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "eyJsYXN0X2lkIjo3Njk3NzAyMDkyODQ3LCJsYXN0X3ZhbHVlIjoiNzY5NzcwMjA5Mjg0NyJ9"
+        }
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 270,
+        "actualQueryCost": 50,
+        "throttleStatus": {
+          "maximumAvailable": 2000,
+          "currentlyAvailable": 1950,
+          "restoreRate": 100
+        }
+      }
+    }
+  }
