@@ -57,5 +57,5 @@ export const scheduler = () => {
   const everyHour = "0 0 */1 * * *"; // every 1 hours
   const everyDayTwice = "0 9,21 * * *"; // every day 9 am and 9 pm
 
-  cron.schedule(everyMin, storeDataSync);
+  // cron.schedule(everyMin, storeDataSync);
 };
